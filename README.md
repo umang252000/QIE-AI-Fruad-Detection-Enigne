@@ -77,6 +77,7 @@ POST /score
 GET /reports
 
 System Architecture
+              
                 ┌──────────────────────┐
                 │      Frontend        │
                 │ React + Vite         │
@@ -116,27 +117,47 @@ Storage	IPFS
 Deployment	Replit / Docker / GitHub
 
 Project Structure
+
 AI_Fraud_Detection_Engine/
+
 │── backend/
+
 │   ├── app/main.py
+
 │   ├── exported_model/
+
 │   ├── requirements.txt
+
 │
+
 │── frontend/
+
 │   ├── src/
+
 │   ├── index.html
+
 │   ├── vite.config.js
+
 │
+
 │── indexer/
+
 │   ├── src/indexer.js
+
 │   ├── package.json
 │
+
 │── contracts/
+
 │   ├── FraudAlerts.sol
+
 │   ├── hardhat.config.js
 │
+
 │── ml/
+
 │   ├── train_isolation.py
+
 │   ├── export_model.py
 
 Environment Variables

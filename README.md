@@ -216,9 +216,13 @@ Summary
 This project:
 
 ✔ Detects suspicious wallets using machine learning
+
 ✔ Stores immutable fraud reports on QIE blockchain
+
 ✔ Uses IPFS for evidence management
+
 ✔ Indexes blockchain data in real-time
+
 ✔ Provides a polished dashboard for end users
 
 It Have:

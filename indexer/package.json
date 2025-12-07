@@ -1,0 +1,23 @@
+{
+  "name": "qie-fraud-indexer",
+  "version": "1.0.0",
+  "description": "Real-time blockchain + contract event indexer for QIE Fraud Alerts",
+  "type": "module",
+  "main": "src/indexer.js",
+
+  "scripts": {
+    "dev": "node src/indexer.js",
+    "start": "NODE_ENV=production node src/indexer.js",
+    "pm2": "pm2 start src/indexer.js --name qie-indexer --watch"
+  },
+
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "pg": "^8.11.5"
+  },
+
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

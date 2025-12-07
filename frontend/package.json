@@ -1,0 +1,24 @@
+{
+  "name": "fraud-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI + Blockchain Fraud Detection Frontend Dashboard (React + Vite)",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ethers": "^6.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.0",
+    "prettier": "^3.2.5"
+  }
+}
